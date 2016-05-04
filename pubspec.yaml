@@ -1,7 +1,7 @@
 name: pub_download
 version: 0.0.1
-description: A sample command-line application.
-#author: Your Name <email@example.com>
+description: A simple scraper of pub.dartlang.org.
+author: Filip Hracek <filip.hracek@gmail.com>
 #homepage: https://www.example.com
 
 environment:
@@ -10,5 +10,5 @@ environment:
 dependencies:
   sqlite: ^0.4.0
 
-dev_dependencies:
-  test: '>=0.12.0 <0.13.0'
+#dev_dependencies:
+#  test: '>=0.12.0 <0.13.0'
