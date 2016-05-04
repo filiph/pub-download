@@ -161,7 +161,7 @@ class PackageInfo {
 
   VersionLevel get latestVersionLevel {
     List<String> levels = latestVersion.split(".");
-    if (levels.length != 3) {
+    if (levels.length < 3) {
       print("Weird semver version: $latestVersion. "
           "Assuming VersionLevel.patch");
       return VersionLevel.patch;
